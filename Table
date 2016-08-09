@@ -1,0 +1,16 @@
+(function (angular) {
+    angular.module('Table', []).directive('ualTable', function () {
+        return {
+            // scope: true, //inherit child scope from parent
+            restrict: 'A',
+//            controller: function () {
+//
+//            },
+//            link: function () {
+//
+//            },
+            replace: true,
+            template: '<div>Table</div>'
+        }
+    })
+})(window.angular);
